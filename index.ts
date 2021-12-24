@@ -58,7 +58,7 @@ var material3 = new Three.ShaderMaterial({
 const cube = new Three.Mesh(geometry, material3);
 
 scene.add(cube);
-scene.background = new Three.Color(0xff0000);
+scene.background = new Three.Color(0x111);
 
 camera.position.z = 15;
 cube.rotation.y = -0.7;
